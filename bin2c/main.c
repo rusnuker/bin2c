@@ -29,7 +29,7 @@ typedef struct
 static void print_usage(const char *argv0)
 {
     fprintf(stderr,
-            "Usage: %s [-i inputfile] [-o output.h] [-l line_len] [-t type] [-p var_prefix] [-0h] -a var_name\n"
+            "Usage: %s -i inputfile -o output.c -a var_name [-l line_len] [-t type] [-p var_prefix] [-0h]\n"
             "\t-0 add a null-char at the end of the generated array; only valid with -t char\n"
             "\t-h show this help\n"
             "\ttype can be: char (unsigned char array, default), nsstring (Objective-C NSString constant), dstring (D string)\n",
