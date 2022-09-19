@@ -16,7 +16,7 @@ It's also known to work on Gentoo with gcc 5.4.0.
 Usage
 =====
 
-`bin2c [-i inputfile] [-o output.h] [-l line_len] [-t type] [-hs0] -a array_name`
+`bin2c -i inputfile -o output.h -a array_name [-l line_len] [-t type] [-hs0]`
 -h: show a brief help message
 -s: prepend the 'static' keyword to the generated variables
 -0: when -t char, add a null-char at the end of the array
